@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-UA-Compatible" content="ie=edge">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Básica</h1>
+    </header>
+    <section>
+        <div>
+            <label for="num1">Número 1:</label>
+            <input type="number" name="num1" id="num1">
+        </div>
+        <div>
+            <label for="num2">Número 2:</label>
+            <input type="number" name="num2" id="num2">
+        </div>
+        <div>
+            <button onclick="calcular('soma')">Soma (+)</button>
+            <button onclick="calcular('subtracao')">Subtração (-)</button>
+            <button onclick="calcular('multiplicacao')">Multiplicação (*)</button>
+            <button onclick="calcular('divisao')">Divisão (/)</button>
+        </div>
+        <div>
+            <p>Resultado: <span id="resultado"></span></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Ryan Pereira Mendes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+        
+    

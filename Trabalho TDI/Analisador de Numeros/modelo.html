@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisar Números</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <main>
+        <div id="message">
+            <p>Insira números entre 1 e 100:</p>
+            <input type="number" id="numberInput">
+            <button onclick="addNumber()">Adicionar</button>
+            <br><br>
+            <select id="numberList" size="6"></select>
+            <br><br>
+            <button onclick="analyzeNumbers()">Finalizar</button>
+        </div>
+        <div id="result"></div>
+    </main>
+    <footer>
+        <p>&copy; Ryan Pereira Mendes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
